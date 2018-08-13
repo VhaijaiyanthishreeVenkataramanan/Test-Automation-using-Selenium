@@ -1,6 +1,6 @@
 # Test-Automation-using-Selenium
 
-Automating "Farmers Fast Quote" and "Gmail" to fill in user information 
+Automating "Farmers Fast Quote (FFQ)" and "Gmail" to fill in user information 
 
 DESCRIPTION:
 Selenium is a popular open source framework which is specifically designed to perform test automation tasks. The following code, written in Java shows how this task is achieved for two different applicatins.
