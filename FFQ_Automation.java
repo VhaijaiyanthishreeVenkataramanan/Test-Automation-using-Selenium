@@ -209,7 +209,7 @@ public class ffq_Auto_New {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("payment:performCardNext")));
 		
 		driver.findElement(By.id("payment:accountTypeEc:1")).click();
-		driver.findElement(By.id("payment:holderNameEC")).sendKeys("John Johnson");
+		driver.findElement(By.id("payment:holderNameEC")).sendKeys("VJ Raggy");
 		driver.findElement(By.id("payment:routingNumberEC")).sendKeys("125000024");
 		driver.findElement(By.id("payment:frontEndBankAccountNumberEc")).sendKeys("12341234");
 		driver.findElement(By.id("payment:duplicateBankAccNumEc")).sendKeys("12341234");
