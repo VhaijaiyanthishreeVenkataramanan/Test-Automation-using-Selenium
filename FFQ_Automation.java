@@ -50,8 +50,8 @@ public class ffq_Auto_New {
 		// YOUR INFO
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("FFQAuto_Yourinfo_startQuoteBtn")));
 		
-		driver.findElement(By.id("FFQAuto_Yourinfo_firstName")).sendKeys("VJ");
-		driver.findElement(By.id("FFQAuto_Yourinfo_lastName")).sendKeys("Raggy");
+		driver.findElement(By.id("FFQAuto_Yourinfo_firstName")).sendKeys("Mark");
+		driver.findElement(By.id("FFQAuto_Yourinfo_lastName")).sendKeys("Johnson");
 				
 		// WebElement BirthDate= driver.findElement(By.id("FFQAuto_Yourinfo_Dob"));
 		
@@ -70,7 +70,7 @@ public class ffq_Auto_New {
 		gender1.click();
 				
 		driver.findElement(By.id("FFQAuto_Yourinfo_ResedentialAddress")).sendKeys("6301 Owensmouth Ave");
-		driver.findElement(By.id("FFQAuto_Yourinfo_Apartment")).sendKeys("Suite 101");
+		driver.findElement(By.id("FFQAuto_Yourinfo_Apartment")).sendKeys("Suite 10");
 		driver.findElement(By.id("FFQAuto_Yourinfo_City")).sendKeys("Woodland Hills");
 		driver.findElement(By.id("FFQAuto_Yourinfo_question")).click();
 		// driver.findElement(By.id("FFQAuto_Yourinfo_question1")).click();
@@ -109,7 +109,7 @@ public class ffq_Auto_New {
 		
 		driver.findElement(By.xpath("//*[@id=\"FFQAuto_Vehicle_vehicleUsedFor_PLS_Wrap\"]/label/span[2]")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("FFQAuto_Vehicle_milesDrivePerYear")).sendKeys("5600");
+		driver.findElement(By.id("FFQAuto_Vehicle_milesDrivePerYear")).sendKeys("130005");
 		Thread.sleep(1000);
 		driver.findElement(By.id("FFQAuto_Vehicle_VehicleCAbtn")).click();
 		Thread.sleep(3000);
@@ -137,7 +137,7 @@ public class ffq_Auto_New {
 		driver.findElement(By.id("FFQAuto_Driver_licenseUSA_button")).click();
 		Thread.sleep(2000);
 		
-		driver.findElement(By.id("FFQAuto_Driver_emailAddress")).sendKeys("vj.raggy@gmail.com");
+		driver.findElement(By.id("FFQAuto_Driver_emailAddress")).sendKeys("mark.johnson@yahoo.com");
 		driver.findElement(By.id("FFQAuto_Driver_phoneNumber")).sendKeys("3238487322");
 		driver.findElement(By.id("FFQAuto_Driver_addDetailsConbtn")).click();
 		Thread.sleep(3000);
